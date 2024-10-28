@@ -33,4 +33,5 @@ Before applying these dotfiles, it's highly recommended to back up your existing
 ```bash
 mkdir -p ~/dotfiles_backup
 cp ~/.bashrc ~/dotfiles_backup/
+cp ~/.zshrc ~/dotfiles_backup/
 cp -r ~/.config/ ~/dotfiles_backup/
