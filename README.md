@@ -35,3 +35,8 @@ mkdir -p ~/dotfiles_backup
 cp ~/.bashrc ~/dotfiles_backup/
 mv ~/.zshrc ~/dotfiles_backup/.zshrc.bak
 cp -r ~/.config/ ~/dotfiles_backup/
+
+## Installing
+```shell
+git clone git@github.com:bohdanbodnarenko/dotfiles.git $HOME/dotfiles
+```
